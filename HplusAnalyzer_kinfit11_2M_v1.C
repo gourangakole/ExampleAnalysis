@@ -1133,7 +1133,8 @@ void HplusAnalyzer_kinfit11_2M_v1::CreateAnalHistos(TString cutflowType, TFile* 
 void HplusAnalyzer_kinfit11_2M_v1::processEvents(){ 
 
   // New kinfit11 samples
-  CutFlowAnalysis("/home/gouranga/Documents/temporary/tree_HW_M_120_kinefit11.root", "PF",false, "wh_M_120");
+//  CutFlowAnalysis("/home/gouranga/Documents/temporary/tree_HW_M_120_kinefit11.root", "PF",false, "wh_M_120");
+  CutFlowAnalysis("root://eoscms.cern.ch//store/user/gkole/chargedHiggs/8TeV/AfterApp/Muon_v4/tree_ttbar_muon_su12_After_app_v4.root", "PF",false,"ttbar");
 
   //  CutFlowAnalysis("rfio:/dpm/indiacms.res.in/home/cms/user/gouranga/ChargedHiggs/8TeV/kinfit_v11/Merged/MC/tree_ttbar_su12_kinefit11.root", "PF",false, "ttbar");
 

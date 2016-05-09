@@ -1,0 +1,4 @@
+///// Begin processing base  selection ///////
+Input file : root://eoscms.cern.ch//store/user/gkole/chargedHiggs/8TeV/AfterApp/Muon_v4/tree_ttbar_muon_su12_After_app_v4.root
+Available input sample : 6.92365e+06
+Scale factor for lumi 1000 pb is 0.0355015

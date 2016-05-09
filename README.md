@@ -19,8 +19,11 @@ Check the file "HplusAnalyzer_kinfit11_2M_v1.C" with your favorite editor e,g. v
 
 # Compile the code
 root -l 
+
 .L HplusAnalyzer_kinfit11_2M_v1.C+
+
 HplusAnalyzer_kinfit11_2M_v1 t;
+
 t.processEvents();
 
 
