@@ -27,11 +27,10 @@
 
 #endif
 
-const double JEREtaMap[6] = {0., 0.5, 1.1, 1.7, 2.3, 5.0}; 
-const double JERSF[5] = {1.052, 1.057, 1.096, 1.134, 1.288}; 
-//const double JERSFStatUn[5] = {0.012, 0.012, 0.017, 0.035, 0.127}; 
-const double JERSFUp[5] = {1.115, 1.114, 1.161, 1.228, 1.488}; 
-const double JERSFDown[5] = {0.990, 1.001, 1.032, 1.042, 1.089}; 
+const double JEREtaMap[8] = {0., 0.5, 1.1, 1.7, 2.3, 2.8, 3.2, 5.0}; 
+const double JERSF[7] = {1.079, 1.099, 1.121, 1.208, 1.254, 1.395, 1.056};
+const double JERSFUp[7] = {1.105, 1.127, 1.150, 1.254, 1.316, 1.458, 1.247}; 
+const double JERSFDown[7] = {1.053, 1.071, 1.092, 1.162, 1.192, 1.332, 0.865}; 
 
 class UncertaintyComputer{
 

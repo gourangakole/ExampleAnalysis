@@ -34,7 +34,7 @@ double UncertaintyComputer::getJERSF(double eta, int jer)
 {
 
   double SF = 1.0;
-  for(size_t i = 0; i < 5; i++){
+  for(size_t i = 0; i < 7; i++){
     if(TMath::Abs(eta) >= JEREtaMap[i] && TMath::Abs(eta) < JEREtaMap[i+1]){
       if(jer == 0)SF = JERSF[i];
       else if (jer == 1){
