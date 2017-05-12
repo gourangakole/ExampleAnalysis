@@ -30,3 +30,5 @@ t.processEvents();
 # In one goal
 root -l 'runme.C("HplusAnalyzer_kinfit11_2M_v1")'
 
+# To make table with Yield and uncertainties
+makeYieldTable.C
