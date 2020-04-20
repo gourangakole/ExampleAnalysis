@@ -1,3 +1,4 @@
+# official card is here http://cmscvs.web.cern.ch/cmscvs/cgi/viewvc.cgi/cvsroot/CMSSW/Configuration/GenProduction/python/EightTeV/PYTHIA6_Tauola_TTbar_H120_csbar_8TeV_cff.py?view=markup
 import FWCore.ParameterSet.Config as cms
 
 process = cms.Process('HLT')
